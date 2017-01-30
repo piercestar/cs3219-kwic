@@ -1,7 +1,5 @@
 package ui;
 
-import filters.*;
-
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;

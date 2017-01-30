@@ -43,12 +43,12 @@ public class Controller {
         //     stored as a string
 
         Pipeline pl = new Pipeline();
-        // ImplicitInvokation ii = new ImplicitInvokation();
+        // ImplicitInvocation ii = new ImplicitInvocation();
 
         // ============================================
 
         // Displays the output string
-        outputTextArea.setText(pl.run(inputText, ignoreText));
+         outputTextArea.setText(pl.run(inputText, ignoreText));
         // outputTextArea.setText(ii.run(inputText, ignoreText));
     }
 }
